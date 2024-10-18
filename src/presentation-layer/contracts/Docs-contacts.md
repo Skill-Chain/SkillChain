@@ -28,7 +28,7 @@ POST {host}/auth/register
   "id":"fceacd7f03569af0",
   "firstname": "Marie",
   "Lastname": "Elman",
-  "login": "Cocojamba12",
+  "email": "MarieEl09@mail.ru",
   "token": "C73E4154D83B7D11FA2613914F5556B9B31192C987153D4BADB5F6D416CD3BDE"
 }
 ```
@@ -54,8 +54,8 @@ POST {host}/auth/login
 {
   "id":"fceacd7f03569af0",
   "firstname": "Marie",
-  "lastname": "Elman",
-  "login": "Cocojamba12",
+  "Lastname": "Elman",
+  "email": "MarieEl09@mail.ru",
   "token": "C73E4154D83B7D11FA2613914F5556B9B31192C987153D4BADB5F6D416CD3BDE"
 }
 ```

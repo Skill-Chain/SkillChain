@@ -27,5 +27,7 @@ func addAuthGroup(rg *gin.RouterGroup) {
 
 	})
 
-	auth.POST("/auth/reset-password")
+	auth.POST("/reset-password", func(context *gin.Context) {
+
+	})
 }
