@@ -19,5 +19,5 @@ func main() {
 	}
 
 	routes.GetRoutes()
-	database.DoDateBase()
+	database.ConnectDB()
 }

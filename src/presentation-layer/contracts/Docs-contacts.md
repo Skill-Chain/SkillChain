@@ -1,7 +1,7 @@
 #### Auth
 
 ##### Registr
-* registerRequest
+* RegisterRequest
 
 ```http request
 POST {host}/auth/register
@@ -18,7 +18,7 @@ POST {host}/auth/register
     "password": "MeLdhgorfjj221...Gd"
 }
 ```
-* registerResponse
+* RegisterResponse
 ```http request
 200, OK
 ```
@@ -33,7 +33,7 @@ POST {host}/auth/register
 }
 ```
 ##### Auth
-* loginRequest
+* RoginRequest
 
 ```http request
 POST {host}/auth/login
@@ -46,7 +46,7 @@ POST {host}/auth/login
 }
 ```
 
-* loginResponse
+* LoginResponse
 ```http response
 200, OK
 ```
